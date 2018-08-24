@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+ /* background-image: -moz-radial-gradient()*/
+ background-color: #282c34;
+}
+.order-form {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 0 0 0;
+  text-align: justify;
+  
+}
+.header {
+
+  width: 100%;
+  height: 100px;
+  border: 1px solid;
+  background-color: #20232a;
+}
+.order-form input{
+    padding: 4px 4px 6px 6px;
+    margin: 10px 10px 10px 10px;
+}
+.logo{
+background-image:url(./OrderFormApp/logo.jpg);
+text-align: center;
+z-index: 9999;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ /* background-color: #333;*/
+ text-align: center;
+ float: left;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color:#000;
+}
+
+.footer {
+
+  width: 100%;
+  height: 100px;
+  border: 1px solid;
+  background-color: #20232a;
+}
+.footer ul  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+ float: right;
+ position: relative;
+}
+
+.footer li {
+  float: left;
+}
+
+.footer li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+.footer li a:hover {
+  background-color: #111;
+}
+
+.footer .active {
+  background-color:#000;
+}
+p  {
+color:#fff;
+}
